@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical" android:background="@drawable/back2" android:id="@+id/linear01">
+    <TextView android:textSize="18dip" android:layout_height="wrap_content" android:id="@+id/TextView01" android:layout_width="wrap_content" android:text="Lives:  " android:textColor="#FFFFFF" android:textStyle="bold"></TextView>
+    <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        <TextView android:textSize="18dip" android:layout_height="wrap_content" android:id="@+id/textview1" android:layout_width="wrap_content"></TextView>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center">
+    </TableRow>
+    <TableRow android:layout_height="wrap_content" android:gravity="center" android:layout_width="wrap_content" android:id="@+id/tableRow1" android:layout_x="0dp" android:layout_y="38dp">
+        <ImageButton android:layout_height="wrap_content" android:id="@+id/imageButton1" android:src="@drawable/speedtest" android:layout_width="wrap_content"></ImageButton>
+        <ImageButton android:layout_height="wrap_content" android:layout_gravity="right" android:id="@+id/imageButton2" android:src="@drawable/accuracytest" android:layout_width="wrap_content"></ImageButton>
+        <ImageButton android:layout_height="wrap_content" android:layout_gravity="right" android:id="@+id/imageButton4" android:src="@drawable/timingtest" android:layout_width="wrap_content"></ImageButton>
+        <ImageButton android:layout_height="wrap_content" android:id="@+id/imageButton3" android:src="@drawable/visualtest" android:layout_width="wrap_content"></ImageButton>
+    </TableRow>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18dip" android:id="@+id/TextView02" android:layout_y="184dp" android:layout_x="5dp" android:text="Level: 1" android:textColor="#FFFFFF"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18dip" android:id="@+id/TextView04" android:layout_y="184dp" android:layout_x="250dp" android:text="Level: 1" android:textColor="#FFFFFF"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18dip" android:id="@+id/TextView03" android:layout_y="184dp" android:layout_x="130dp" android:text="Level: 1" android:textColor="#FFFFFF"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18dip" android:id="@+id/TextView05" android:layout_y="184dp" android:layout_x="370dp" android:text="Level: 1" android:textColor="#FFFFFF"></TextView>
+    
+    <com.google.ads.AdView
+    android:id="@+id/adView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    ads:adUnitId="a14dff92ac663ee"
+    ads:adSize="BANNER" 
+	android:layout_x="0dip" android:layout_y="215dip" ads:loadAdOnCreate="true"/>
+	
+</AbsoluteLayout>

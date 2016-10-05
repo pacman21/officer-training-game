@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="officer.com"
+      android:versionName="1.1" android:versionCode="2">
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name="SplashScreenActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+          <activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation"/>
+        
+        <activity android:name="accuracytest"></activity>
+        <activity android:name="speedtest"></activity>
+        <activity android:name="timingtest"></activity>
+		<activity android:name="visualtest"></activity>
+		<activity android:name="wonorlostscreen"></activity>
+		<activity android:name="Otraininggame"></activity>
+		
+    </application>
+</manifest>

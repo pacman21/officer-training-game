@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical" android:background="@drawable/back2">
+    <TextView android:textSize="18dip" android:layout_height="wrap_content" android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_x="0dp" android:layout_y="0dp" android:textColor="#FFFFFF" android:text="Click Each Bomb To Start The Timer. The Timer Must Be As Close to 10000 As Possible. Level 1 Allows 800 points off. Level 2 Allows 700. And So On"></TextView>
+    <ImageButton android:layout_width="wrap_content" android:id="@+id/imageButton1" android:layout_height="wrap_content" android:src="@drawable/defuser" android:layout_x="22dp" android:layout_y="118dp"></ImageButton>
+    <ImageButton android:layout_width="wrap_content" android:id="@+id/imageButton2" android:layout_height="wrap_content" android:src="@drawable/defuser" android:layout_x="142dp" android:layout_y="118dp"></ImageButton>
+    <ImageButton android:layout_width="wrap_content" android:id="@+id/imageButton3" android:layout_height="wrap_content" android:src="@drawable/defuser" android:layout_x="262dp" android:layout_y="118dp"></ImageButton>
+    <ImageButton android:layout_width="wrap_content" android:id="@+id/imageButton4" android:layout_height="wrap_content" android:src="@drawable/defuser" android:layout_x="392dp" android:layout_y="118dp"></ImageButton>
+    <TextView android:textColor="#FFFFFF" android:layout_height="wrap_content" android:textSize="18dip" android:layout_width="wrap_content" android:id="@+id/TextView01" android:text="Timer" android:layout_x="56dp" android:layout_y="125dp"></TextView>
+    <TextView android:textColor="#FFFFFF" android:layout_height="wrap_content" android:textSize="18dip" android:layout_width="wrap_content" android:id="@+id/TextView02" android:text="Level: 1" android:layout_x="173dp" android:layout_y="125dp"></TextView>
+    <TextView android:textColor="#FFFFFF" android:layout_height="wrap_content" android:textSize="18dip" android:layout_width="wrap_content" android:id="@+id/TextView03" android:text="Timer:" android:layout_x="301dp" android:layout_y="125dp"></TextView>
+    <TextView android:textColor="#FFFFFF" android:layout_height="wrap_content" android:textSize="18dip" android:layout_width="wrap_content" android:id="@+id/TextView04" android:layout_x="424dp" android:layout_y="125dp" android:text="Timer:"></TextView>
+    <TextView android:textColor="#FFFFFF" android:layout_height="wrap_content" android:textSize="18dip" android:layout_width="wrap_content" android:id="@+id/TextView06" android:text="Current Time Off:" android:layout_x="173dp" android:layout_y="79dp"></TextView>
+</AbsoluteLayout>
